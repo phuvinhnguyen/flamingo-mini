@@ -12,7 +12,9 @@ from flamingo_mini import FlamingoModel, FlamingoProcessor
 class MyDatasetWrapper(Dataset):
 
     def __init__(self, dataset):
+        print('-----------------------------------')
         self.dataset = dataset
+        print(len(self.dataset))
 
     def __len__(self):
         return len(self.dataset)
