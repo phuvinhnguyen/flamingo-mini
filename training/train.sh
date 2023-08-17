@@ -21,7 +21,6 @@ ARGS="
 --log_level info
 --dataloader_num_workers 8
 --dataloader_pin_memory True
---fp16
 --report_to wandb
 --ddp_find_unused_parameters False
 "
