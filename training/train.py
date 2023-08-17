@@ -29,9 +29,9 @@ logger = logging.getLogger(__name__)
 
 
 # get images and annotations from https://cocodataset.org/#download
-COCO_ROOT      = '/nfs/data3/zhangya/coco2017/images'
-COCO_ANN_TRAIN = '/nfs/data3/hansmair/coco2017/captions_train2017.json'
-COCO_ANN_VAL   = '/nfs/data3/hansmair/coco2017/captions_val2017.json'
+COCO_ROOT      = 'flamingo-mini/examples/dataset/images'
+COCO_ANN_TRAIN = 'flamingo-mini/examples/dataset/annotations.json'
+COCO_ANN_VAL   = 'flamingo-mini/examples/dataset/annotations.json'
 
 
 class CLIPImageTransform:

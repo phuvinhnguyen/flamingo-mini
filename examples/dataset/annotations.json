@@ -1,0 +1,28 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "file_name": "image1.jpg",
+            "width": 800,
+            "height": 600
+        },
+        {
+            "id": 2,
+            "file_name": "image2.jpg",
+            "width": 800,
+            "height": 600
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 1,
+            "caption": "This is a sample caption for image 1."
+        },
+        {
+            "id": 2,
+            "image_id": 2,
+            "caption": "This is a sample caption for image 2."
+        }
+    ]
+}
