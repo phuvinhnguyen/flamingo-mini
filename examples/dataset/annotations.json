@@ -17,12 +17,12 @@
         {
             "id": 1,
             "image_id": 1,
-            "caption": "This is a sample caption for image 1."
+            "caption": "A tree by the shore"
         },
         {
             "id": 2,
             "image_id": 2,
-            "caption": "This is a sample caption for image 2."
+            "caption": "Flowers, a forest and a mountain"
         }
     ]
 }
