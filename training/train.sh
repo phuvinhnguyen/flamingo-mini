@@ -30,8 +30,8 @@ echo $ARGS
 
 if [ $NUM_GPU == 1 ]; then
     echo "running on a single GPU"
-    python ./train.py $ARGS
+    python ./training/train.py $ARGS
 else
     echo "running on multiple GPUs"
-    torchrun --nproc_per_node $NUM_GPU ./train.py $ARGS
+    torchrun --nproc_per_node $NUM_GPU ./training/train.py $ARGS
 fi
