@@ -7,6 +7,7 @@ ARGS="
 --output_dir ./flamingo-coco
 --run_name flamingo-tiny-vitL
 --do_train --do_eval
+--num_train_epochs 10
 --optim adamw_torch
 --learning_rate 0.0001 
 --warmup_steps 5000
