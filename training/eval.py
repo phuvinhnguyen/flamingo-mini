@@ -18,6 +18,7 @@ class MyDatasetWrapper(Dataset):
         return len(self.dataset)
 
     def __getitem__(self, index):
+        index = index % len(self.dataset)
         print('--------------------------------')
         print(index, '/', len(self.dataset))
         image, _ = self.dataset[index]
