@@ -12,14 +12,14 @@ from flamingo_mini import FlamingoModel, FlamingoProcessor
 class MyDatasetWrapper(Dataset):
 
     def __init__(self, dataset):
-        print('-----------------------------------')
         self.dataset = dataset
-        print(len(self.dataset))
 
     def __len__(self):
         return len(self.dataset)
 
     def __getitem__(self, index):
+        print('--------------------------------')
+        print(index, '/', len(self.dataset))
         image, _ = self.dataset[index]
         image_id = self.dataset.ids[index]
         return image_id, image
