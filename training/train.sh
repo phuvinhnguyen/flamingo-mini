@@ -1,6 +1,6 @@
 #!/bin/env bash
 
-export CUDA_VISIBLE_DEVICES=0,1
+export CUDA_VISIBLE_DEVICES=1,2
 NUM_GPU=2
 
 ARGS="
