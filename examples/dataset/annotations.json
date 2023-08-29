@@ -13,16 +13,16 @@
             "height": 600
         }
     ],
-    "categories": [
+    "annotations": [
         {
             "id": 1,
             "image_id": 1,
-            "captions": "The tree by the shore"
+            "caption": "<BOS><image> The tree by the shore<EOC><EOS>"
         },
         {
             "id": 2,
             "image_id": 2,
-            "captions": "Flowers, forest and a mountain"
+            "caption": "<BOS><image> Flowers, forest and a mountain<EOC><EOS>"
         }
     ]
 }
