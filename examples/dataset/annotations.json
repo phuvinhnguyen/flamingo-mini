@@ -13,16 +13,18 @@
             "height": 600
         }
     ],
-    "annotations": [
+    "categories": [
         {
             "id": 1,
             "image_id": 1,
-            "caption": "<BOS><image> The tree by the shore<EOC><EOS>"
+            "name": "<BOS><image> The tree by the shore<EOC><EOS>",
+            "supercategory": "<BOS><image> The tree by the shore<EOC><EOS>"
         },
         {
             "id": 2,
             "image_id": 2,
-            "caption": "<BOS><image> Flowers, forest and a mountain<EOC><EOS>"
+            "name": "<BOS><image> Flowers, forest and a mountain<EOC><EOS>",
+            "supercategory": "<BOS><image> Flowers, forest and a mountain<EOC><EOS>"
         }
     ]
 }
