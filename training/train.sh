@@ -15,7 +15,8 @@ ARGS="
 --per_device_eval_batch_size 4
 --gradient_accumulation_steps 1
 --evaluation_strategy steps
---eval_steps 1000
+--eval_steps 1
+--num_train_epochs 20
 --save_strategy epoch
 --save_total_limit 2
 --log_level info
