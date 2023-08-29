@@ -11,8 +11,8 @@ ARGS="
 --learning_rate 0.0001 
 --warmup_steps 5000
 --lr_scheduler_type constant_with_warmup
---per_device_train_batch_size 8
---per_device_eval_batch_size 64
+--per_device_train_batch_size 4
+--per_device_eval_batch_size 4
 --gradient_accumulation_steps 1
 --evaluation_strategy steps
 --eval_steps 1000
@@ -21,7 +21,6 @@ ARGS="
 --log_level info
 --dataloader_num_workers 8
 --dataloader_pin_memory True
---fp16
 --report_to wandb
 --ddp_find_unused_parameters False
 "
