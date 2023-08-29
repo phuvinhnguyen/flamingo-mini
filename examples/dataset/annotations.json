@@ -17,15 +17,11 @@
         {
             "id": 1,
             "image_id": 1,
-            "name": "<BOS><image> The tree by the shore<EOC><EOS>",
-            "supercategory": "<BOS><image> The tree by the shore<EOC><EOS>",
             "captions": "The tree by the shore"
         },
         {
             "id": 2,
             "image_id": 2,
-            "name": "<BOS><image> Flowers, forest and a mountain<EOC><EOS>",
-            "supercategory": "<BOS><image> Flowers, forest and a mountain<EOC><EOS>",
             "captions": "Flowers, forest and a mountain"
         }
     ]
