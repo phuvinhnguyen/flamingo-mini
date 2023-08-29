@@ -1,12 +1,12 @@
 #!/bin/env bash
 
-export CUDA_VISIBLE_DEVICES=1
+export CUDA_VISIBLE_DEVICES=2
 NUM_GPU=1
 
 ARGS="
 --output_dir ./flamingo-coco
 --run_name flamingo-tiny-vitL
---do_train --do_eval
+--do_train
 --num_train_epochs 1
 --optim adamw_torch
 --learning_rate 0.0001 
