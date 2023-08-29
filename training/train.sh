@@ -6,7 +6,7 @@ NUM_GPU=2
 ARGS="
 --output_dir ./flamingo-coco
 --run_name flamingo-tiny-vitL
---do_train --do_eval
+--do_train
 --optim adamw_torch
 --learning_rate 0.0001 
 --warmup_steps 5000
@@ -16,7 +16,7 @@ ARGS="
 --gradient_accumulation_steps 1
 --evaluation_strategy steps
 --eval_steps 1
---num_train_epochs 20
+--num_train_epochs 1
 --save_strategy epoch
 --save_total_limit 2
 --log_level info
