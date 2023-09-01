@@ -8,7 +8,7 @@ ARGS="
 --run_name flamingo-tiny-vitL
 --do_train --do_eval
 --optim adamw_torch
---num_train_epochs 1000
+--num_train_epochs 10
 --learning_rate 3.0 
 --warmup_steps 5000
 --lr_scheduler_type constant_with_warmup
