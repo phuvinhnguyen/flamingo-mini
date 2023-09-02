@@ -17,12 +17,12 @@
         {
             "id": 1,
             "image_id": 1,
-            "caption": "<image> The tree by the shore<EOC>"
+            "caption": "<BOS><image> The tree by the shore<EOC><EOS>"
         },
         {
             "id": 2,
             "image_id": 2,
-            "caption": "<image> Flowers, forest and a mountain<EOC>"
+            "caption": "<BOS><image> Flowers, forest and a mountain<EOC><EOS>"
         }
     ]
 }
