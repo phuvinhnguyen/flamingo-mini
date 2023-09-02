@@ -17,8 +17,8 @@ ARGS="
 --gradient_accumulation_steps 1
 --evaluation_strategy steps
 --eval_steps 1000
---save_strategy epoch
---save_total_limit 2
+--save_strategy no
+--save_total_limit 1
 --log_level info
 --dataloader_num_workers 8
 --dataloader_pin_memory True

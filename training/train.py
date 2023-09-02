@@ -188,3 +188,4 @@ if __name__ == '__main__':
         trainer.train(training_args.resume_from_checkpoint)
     else:
         trainer.train()
+        trainer.save_model('./output')
